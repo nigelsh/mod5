@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: "Indie Flower";
+}
+
+header {
+    width: 98%;
+    height: 175px;
+    background-color: green;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 98%;
+    height: 40px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px 0 30px;
+    font-size: 2em;
+}
+
+ul li {
+    list-style: none;
+}
+
+#wrapper {
+    width: 98%;
+    height: 700px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+}
+
+#right {
+    width: 78%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+}
+
+#top {
+    width: 100%;
+    height: 500px;
+    background-color: lightblue;
+    margin: 0 0 20px 0;
+}
+
+#top ul {
+    padding: 80px 0 0 40px;
+}
+
+#top li {
+    color: white;
+    font-size: 2em;
+}
+
+#bottom {
+    width: 100%;
+    height: 180px;
+    background-color: lightblue;
+}
+
+#wrap {
+    width: 100%;
+    height: 125px;
+    background-color: yellow;
+    color: white;
+}
+
+#wrap h1 {
+    padding: 30px 0 0 50px;
+}
+
+#info {
+    width: 100%;
+    height: 525px;
+}
+
+#info p {
+    padding: 0 80px 0 80px;
+}
+
+#info p:first-child {
+    padding: 50px 80px 0 80px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    text-align: right;
+    font-size: 2.2em;
+    padding: 0 30px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a {
+    color: black;
+}
+
+header a {
+    color: black;
+}
+
+nav a {
+    color: black;
+}
+
+
+h1{
+    padding: 20px 0 0 15px;
+    font-size: 3em;
+}
+
+h2{
+    padding: 0 0 0 15px;
+}
